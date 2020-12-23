@@ -1,8 +1,12 @@
 [tool.poetry]
-name = "PLUS"
+name = "bio_embeddings_PLUS"
 version = "0.1.0"
 description = "Protein sequence representations Learned Using Structural information (https://arxiv.org/abs/1912.05625)"
 authors = ["Seonwoo Min", "Seunghyun Park", "Siwon Kim", "Hyun-Soo Choi", "Sungroh Yoon"]
+packages = [
+    { include = "plus" }
+]
+
 
 [tool.poetry.urls]
 issues = "https://github.com/mswzeus/PLUS/issues"
